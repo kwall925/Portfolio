@@ -1,11 +1,7 @@
-* { 
-    box-sizing: border-box;
-    background: #32323e;
-     }
-
-body {
+#skills {
   font-family: sans-serif;
   text-align: center;
+  background: #32323e;
 }
 
 .flex {
@@ -38,7 +34,7 @@ body {
   -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(255,255,255,0.6)));
 }
 
-.watermark {
+.watermark-skill {
   height: 800px;
   position: absolute;
   opacity: 0.04;
