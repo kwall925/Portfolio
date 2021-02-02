@@ -1,5 +1,7 @@
-#skills {
-  font-family: sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@1,300&display=swap');
+
+body {
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
   text-align: center;
   background: #32323e;
 }
@@ -24,6 +26,7 @@
 
 .feskills {
   color: white;
+  font-family: sans-serif;
   -webkit-text-stroke: 1px black;
   font-size: 7em;
   transform: skewY(-15deg);
