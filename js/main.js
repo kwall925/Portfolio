@@ -1,23 +1,3 @@
-/*const init = () => {
- const clicker = document.querySelector(".expand-one");
- clicker.onclick = showDiv;
- const collapse = document.querySelector("#collapse");
- collapse.onclick = hidePara;
-}
-
-const showDiv = () => {
-    let hiddenDiv = document.querySelector(".content-one");
-    hiddenDiv.style.display = "block";
-}
-
-const hidePara = () => {
-    let hiddenDiv = document.querySelector(".content-one");
-    hiddenDiv.style.display = "none";
-}
-
-window.onload = init;
-*/
-
 
 const init = () => {
 
@@ -418,18 +398,25 @@ const revert = () => {
 }
 
 
-
-
-/**/
-
 window.onload = init;
 
-
-const removeSub = () => {
-  let elementToDel = document.querySelector('.instruct');
-  elementToDel.innerHTML = "";
- 
+/*const init = () => {
+ const clicker = document.querySelector(".expand-one");
+ clicker.onclick = showDiv;
+ const collapse = document.querySelector("#collapse");
+ collapse.onclick = hidePara;
 }
 
+const showDiv = () => {
+    let hiddenDiv = document.querySelector(".content-one");
+    hiddenDiv.style.display = "block";
+}
 
-window.onscroll = removeSub;
+const hidePara = () => {
+    let hiddenDiv = document.querySelector(".content-one");
+    hiddenDiv.style.display = "none";
+}
+
+window.onload = init;
+*/
+
