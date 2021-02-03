@@ -6,8 +6,7 @@
   <link rel="stylesheet" type="text/css" href="css/skills.css">
   <link rel="stylesheet" type="text/css" href="css/recent.css">
   <script src="js/main.js" async defer></script>
-  <script src="js/skills.js" async defer></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="js/video.js" async defer></script>
 </head>
 <body>
             <section id="wrapper">
@@ -37,12 +36,20 @@
                 </div>
               </div>
               <div class="instruct">
-                Drag cube to navigate.
+                Drag cube to navigate.<br>
+                OR <a href="#" id='showNav'>use classic navigation</a>
               </div>
             </div>
 
-            <div class="nextdiv"><a href='#'>
-              <img class='next' src="images/next.svg"></a>
+            <nav class="classicNav">
+              <li><a href='#'>Skills</a></li>
+              <li><a href='#'>Recent Work</a></li>
+              <li><a href='#'>Contact</a></li>
+              <li><a href='#'>Writings</a></li>
+              <li><a href='#'>Resources</a></li>
+            </nav>
+            <!--<div class="nextdiv"><a href='#'>
+              <img class='next' src="images/next.svg"></a>-->
           </section>
 
           <video playsinline autoplay muted loop poster="images/video.mp4" id="bgvid">
@@ -50,15 +57,4 @@
           </video>
 
 </body>
-
-<script>
-
-    const play = () = > {
-    var vid = document.getElementById("bgvid");
-    vid.playbackRate = 0.2;
-  }
-
-  window.onload = play();
-
-</script>
 </html>

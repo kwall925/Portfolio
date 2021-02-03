@@ -18,6 +18,7 @@ const hidePara = () => {
 window.onload = init;
 */
 
+
 const init = () => {
 
 var events = new Events();
@@ -368,8 +369,6 @@ new Cube({
 
 /**/ 
 
-
-
 const transform = () => {
     let bod = document.querySelector('body');
     bod.style.backgroundColor = '#cccccc';
@@ -424,6 +423,7 @@ const revert = () => {
 /**/
 
 window.onload = init;
+
 
 const removeSub = () => {
   let elementToDel = document.querySelector('.instruct');

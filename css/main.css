@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@1,100&display=swap');
+
 body{
 /*    background: #d0d7db;  
 */
@@ -18,6 +20,11 @@ body{
     height: 100vh;   
 }
 
+a {
+    text-decoration: none;
+    text-transform: none;
+    color: white;
+}
 
 video {
   object-fit: cover;
@@ -103,7 +110,7 @@ video {
   .cube > div {
     overflow: hidden;
     position: absolute;
-    opacity: 0.9;
+    opacity: 0.95;
     height: 200px;
     width: 200px;
     background: #fff;
@@ -212,6 +219,28 @@ video {
       -o-transform: scale(0.6, 0.6);
       transform: scale(0.6, 0.6); } }
 */
+
+    .classicNav {
+        position: absolute;
+        top: 10em;
+        right: 2em;
+        color: white;
+        font-size: 2em;
+        font-weight: 100;
+        opacity: 0;
+    }
+
+    .classicNav > li {
+        list-style-type: none;
+        line-height: 1.5em;
+    }
+
+    .classicNav > li > a:hover {
+        color: #579dff;
+        font-weight: 400;
+        font-size: 1.6em;
+        transition: .3s;
+    }
 
     .instruct {
         font-size: 0.8rem;
