@@ -13,6 +13,13 @@ Skills
 
 Recent
 
+	add projects:
+		-cook now
+		-ui library
+		-coffee marketplace
+		-fullstack challenges
+		-js project 4
+
 
 Contact
 
