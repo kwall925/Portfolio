@@ -13,13 +13,12 @@ Skills
 
 Recent
 
-	add projects:
+	add projects: https://github.com/kwall925?tab=repositories
 		-cook now
 		-ui library
 		-coffee marketplace
 		-fullstack challenges
 		-js project 4
-
 
 Contact
 
