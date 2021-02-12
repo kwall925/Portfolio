@@ -10,10 +10,15 @@
 <!-- 	<script src="js/video.js" async defer></script>
  --></head>
 <body>
+	<nav>
+		<a href="index.html">Home</a>
+		<a href="skills.html">Skills/Services</a>
+		<a href="recent.html" class='active'>Recent Work</a>
+		<a href="contact.html">Contact</a>
+	</nav>
 	<section class="flex">
-
 			<div class="flexchild">
-				<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   					<div class="carousel-inner">
     					<div class="carousel-item active">													 			      			<img class="d-block w-100" src="images/bourdain.png" alt="Second slide" style="height: 400px;">
     					</div>
@@ -23,24 +28,33 @@
  			     			<img class="d-block w-100" src="images/todo.png" alt="Third slide" style="height: 400px;">
     					</div>
   					</div>
+						<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
 				</div>
 			</div>
 
 			<div class='flexchild'>
 				<h1 class='feskills'>Recent<br>Work</h1>
-				<img src="images/settings.svg" class='watermark-recent'>
 			</div>
 
 			<div class="nextdiv"><a href='#'>
 				<img class='next' src="images/next.svg"></a>
 			</div>
-
         <!--   <video playsinline autoplay muted loop poster="images/smoke.mov" id="bgvid">
             <source src="images/smoke.mov" type="smoke.mov">
           </video>  -->
 
-          <video playsinline autoplay muted loop id="bgvid" src="images/smoke.mov"></video>
-
+          <!-- if you end up needing a background, try this one :
+          	https://pixabay.com/videos/background-texture-green-blue-18555/
+          -->
   </section>
+	<img src="images/settings.svg" class='watermark-recent'>
+
 </body>
 </html>

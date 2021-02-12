@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@1,100&display=swap');
 
 body{
@@ -8,19 +9,19 @@ body{
 *, *:before, *:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
-  
+
   #wrapper {
     padding-top: 10%;
-    width: 100%; 
-    height: 100vh;   
+    width: 100%;
+    height: 100vh;
 }
 
 a {
     text-decoration: none;
     text-transform: none;
-    color: white;
 }
 
 video {
@@ -40,11 +41,11 @@ video {
         border: 1px solid #00fac0;
         color: #00fac0;
     }
-    
+
     .navbtn:hover {
         background-color: #579dff;
     }
-    
+
     .cubeImg{
         height: 10vh;
         width: auto;
@@ -53,7 +54,7 @@ video {
     .newText {
       color: #579dff;
       font-size: 1.7rem;
-      font-weight: 600;
+      font-weight: 800;
     }
 
     .padd {
@@ -87,7 +88,7 @@ video {
     -o-transform: scale(0.8, 0.8);
     transform: scale(0.8, 0.8);
     -webkit-box-reflect: below 170px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0%, transparent), to(rgba(250, 250, 250, 0.4))); }
-  
+
   .cube {
     position: relative;
     margin: 0 auto;
@@ -103,7 +104,7 @@ video {
     -ms-transform: rotateX(136deg) rotateY(1122deg);
     -o-transform: rotateX(136deg) rotateY(1122deg);
     transform: rotateX(136deg) rotateY(1122deg); }
-  
+
   .cube > div {
     overflow: hidden;
     position: absolute;
@@ -122,7 +123,7 @@ video {
     -ms-user-select: none;
     -o-user-select: none;
     user-select: none; }
-  
+
   .cube > div > div.cube-image {
     width: 200px;
     height: 200px;
@@ -141,22 +142,22 @@ video {
     -moz-transition: color 600ms;
     -ms-transition: color 600ms;
     -o-transition: color 600ms;
-    transition: color 600ms; 
+    transition: color 600ms;
 }
-  
+
   .cubeImg{
         height: 10vh;
         width: auto;
     }
 
   .cube > div:hover {
-    cursor: pointer; 
+    cursor: pointer;
 }
-  
+
   .cube > div:active {
-    cursor: pointer; 
+    cursor: pointer;
 }
-  
+
   .cube > div:first-child {
     -webkit-transform: rotateX(90deg) translateZ(100px);
     -moz-transform: rotateX(90deg) translateZ(100px);
@@ -164,7 +165,7 @@ video {
     -o-transform: rotateX(90deg) translateZ(100px);
     transform: rotateX(90deg) translateZ(100px);
     outline: 1px solid transparent; }
-  
+
   .cube > div:nth-child(2) {
     -webkit-transform: translateZ(100px);
     -moz-transform: translateZ(100px);
@@ -172,7 +173,7 @@ video {
     -o-transform: translateZ(100px);
     transform: translateZ(100px);
     outline: 1px solid transparent; }
-  
+
   .cube > div:nth-child(3) {
     -webkit-transform: rotateY(90deg) translateZ(100px);
     -moz-transform: rotateY(90deg) translateZ(100px);
@@ -180,7 +181,7 @@ video {
     -o-transform: rotateY(90deg) translateZ(100px);
     transform: rotateY(90deg) translateZ(100px);
     outline: 1px solid transparent; }
-  
+
   .cube > div:nth-child(4) {
     -webkit-transform: rotateY(180deg) translateZ(100px);
     -moz-transform: rotateY(180deg) translateZ(100px);
@@ -188,7 +189,7 @@ video {
     -o-transform: rotateY(180deg) translateZ(100px);
     transform: rotateY(180deg) translateZ(100px);
     outline: 1px solid transparent; }
-  
+
   .cube > div:nth-child(5) {
     -webkit-transform: rotateY(-90deg) translateZ(100px);
     -moz-transform: rotateY(-90deg) translateZ(100px);
@@ -196,7 +197,7 @@ video {
     -o-transform: rotateY(-90deg) translateZ(100px);
     transform: rotateY(-90deg) translateZ(100px);
     outline: 1px solid transparent; }
-  
+
   .cube > div:nth-child(6) {
     -webkit-transform: rotateX(-90deg) rotate(180deg) translateZ(100px);
     -moz-transform: rotateX(-90deg) rotate(180deg) translateZ(100px);
@@ -204,13 +205,17 @@ video {
     -o-transform: rotateX(-90deg) rotate(180deg) translateZ(100px);
     transform: rotateX(-90deg) rotate(180deg) translateZ(100px);
     outline: 1px solid transparent; }
-  
+
   object {
     opacity: 0.5; }
-  
+
   object:hover {
     opacity: 1; }
-  
+
+  .subtext {
+    color: #00fac0;
+  }
+
  /*@media (max-width: 640px) {
     .viewport {
       -webkit-transform: scale(0.6, 0.6);
@@ -235,11 +240,23 @@ video {
         line-height: 1.5em;
     }
 
+    .classicNav > li > a {
+      color: white;
+    }
+
     .classicNav > li > a:hover {
         color: #579dff;
         font-weight: 400;
         font-size: 1.6em;
         transition: .3s;
+    }
+
+    #closeNav {
+      height: 32px;
+      position: absolute;
+      cursor: pointer;
+      right: -25px;
+      top: -25px;
     }
 
     .instruct {
@@ -248,10 +265,15 @@ video {
         color: rgba(255, 255, 255, 0.5);
         font-style: italic;
         position: absolute;
-        top: 95%;  
-        left: 50%; 
+        top: 95%;
+        left: 50%;
         bottom: 10px;
         transform: translate(-50%, -50%);
+        font-weight: 800;
+    }
+
+    #showNav {
+      color: white;
     }
 
 .next {
@@ -272,13 +294,3 @@ video {
 .hide {
   display: none;
 }
-
-.watermark {
-  height: 800px;
-  position: absolute;
-  background: none;
-  opacity: 0.1;
-  top: 90px;
-  left: 700px;
-}
-
