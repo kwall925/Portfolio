@@ -1,3 +1,5 @@
+https://determined-lewin-661375.netlify.app
+
 General
   -UI consistency
   1. Build one page at a time for desktop
@@ -19,3 +21,6 @@ Recent
 		-js project 4
 
 Contact
+
+Js:
+Your shit is a mess man
