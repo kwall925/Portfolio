@@ -2,6 +2,8 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
  }
 
 body {
@@ -20,11 +22,20 @@ nav {
 
 a {
   color: white;
+  text-decoration: none;
+  background: inherit;
 }
 
 a:hover {
   text-transform: none;
   text-decoration: none;
+  color: #579dff;
+}
+
+.active {
+  color: #579dff;
+  font-style: italic;
+  border-bottom: 4px solid #00fac0;
 }
 
 .flex {
@@ -66,9 +77,9 @@ a:hover {
   left: 200px;
 }
 
-.addMargin {
+/* .addMargin {
   margin-top: 150px;
-}
+} */
 
 .scene {
   margin: 40px 0;

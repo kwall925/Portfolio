@@ -11,6 +11,7 @@ Main
 
 Skills
   -Responsive (fix javascript to fit # of skills)
+  -new background image
 
 Recent
 	add projects: https://github.com/kwall925?tab=repositories
@@ -19,6 +20,8 @@ Recent
 		-coffee marketplace
 		-fullstack challenges
 		-js project 4
+
+  somehow add text to images for explanation of work
 
 Contact
 
