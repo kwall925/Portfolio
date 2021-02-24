@@ -5,9 +5,15 @@ General
   1. Build one page at a time for desktop
   2. Once Desktop is built, do media queries
   at once for all pages except for home
+  -Meta Descriptions
+  -Fucking sell yourself. The point of this
+    site is to get a job, not to make art
+
+Bio Page
 
 Main
   -Cube size must be larger
+  -Writings: under maintenance
 
 Skills
   -Responsive (fix javascript to fit # of skills)
@@ -23,7 +29,7 @@ Recent
 
   somehow add text to images for explanation of work
 
-Contact
 
 Js:
-Your shit is a mess man
+Your shit is a mess main
+  -How to properly structure JS?
