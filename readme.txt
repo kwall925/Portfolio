@@ -18,6 +18,7 @@ Main
 Skills
   -Responsive (fix javascript to fit # of skills)
   -new background image
+  -links to examples of work
 
 Recent
 	add projects: https://github.com/kwall925?tab=repositories

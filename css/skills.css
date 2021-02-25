@@ -145,9 +145,16 @@ a:hover {
 .btn-control {
   background: none;
   border: none;
-  color: white;
-  font-size: large;
+  position: relative;
+  bottom: 50px;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 3.3em;
   outline:none;
+}
+
+.btn-control:hover {
+  color: white;
+  cursor: pointer;
 }
 
 
