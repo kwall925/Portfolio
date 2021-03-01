@@ -10,10 +10,13 @@ var isHorizontal = true;
 var rotateFn = isHorizontal ? 'rotateY' : 'rotateX';
 var radius, theta;
 // console.log( cellWidth, cellHeight );
+cells.forEach(element => element.mouseover = function(){console.log('hello world')});
+
+
 
 function rotateCarousel() {
   var angle = theta * selectedIndex * -1;
-  carousel.style.transform = 'translateZ(' + -radius + 'px) ' + 
+  carousel.style.transform = 'translateZ(' + -radius + 'px) ' +
     rotateFn + '(' + angle + 'deg)';
 }
 
