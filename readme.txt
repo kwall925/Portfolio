@@ -1,6 +1,7 @@
 https://determined-lewin-661375.netlify.app
 
 General
+  -first and foremost is speed (homepage)
   -UI consistency
   1. Build one page at a time for desktop
   2. Once Desktop is built, do media queries
@@ -23,8 +24,11 @@ Skills
 Recent
 	add projects: https://github.com/kwall925?tab=repositories
 		-cook now
+    -UI Bootcamp
+    -Vue Bootcamp
 		-ui library
 		-coffee marketplace
+    https://coffee-marketplace-ckt.herokuapp.com/
 		-fullstack challenges
 		-js project 4
 
