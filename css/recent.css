@@ -70,6 +70,7 @@ a:hover {
   transform: skewY(15deg);
   background: transparent;
   text-shadow: 2px 2px 20px #579dff;
+  text-align: center;
   position: relative;
   z-index: 50;
   -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(255,255,255,0.6)));
