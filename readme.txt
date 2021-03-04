@@ -1,7 +1,7 @@
 Recent
   Carousel
-     -add projects: https://github.com/kwall925?tab=repositories
-      -ui library
+      -reduce radius of text shadow
+      -fix slide time
       -fullstack challenges
 
   Main
