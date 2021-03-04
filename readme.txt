@@ -1,15 +1,8 @@
 Recent
   Carousel
-     -entire div should move to the left a bit
-     -descriptions need to be centered on top
-     -transition for description as well
-     -text shadow and hover effect : blue
      -add projects: https://github.com/kwall925?tab=repositories
       -ui library
       -fullstack challenges
-
-  feskills
-    -find cool sans serif font
 
   Main
     -Cube size must be larger
@@ -27,6 +20,8 @@ General
     -How to properly structure JS?
   -UI consistency
   -Meta Descriptions
+  -remove all scrollbars
+  -find cool sans serif font for billboard text
   -sell yourself. The point of this
     site is to get a job, not to make it pretty
 

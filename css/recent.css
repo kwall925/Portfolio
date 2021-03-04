@@ -73,28 +73,53 @@ a:hover {
   text-align: center;
   position: relative;
   z-index: 50;
+  -webkit-animation: glow 6s ease-in-out infinite alternate;
   -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(255,255,255,0.6)));
 }
 
-.d-block, .w-100 {
-  margin-left: 2em;
-  z-index: 100;
+@-webkit-keyframes glow {
+    from {
+     color: #fff;
+   text-shadow: 0 0 10px #00fac0, 0 0 20px #00fac0, 0 0 30px #00fac0, 0 0 40px #00fac0, 0 0 50px #00fac0, 0 0 50px #00fac0, 0 0 50px #00fac0, 0 0 50px #00fac0;
+ }
+
+ to {
+    color: #fff;
+   text-shadow: 0 0 20px #00fac0, 0 0 30px #00fac0, 0 0 40px #00fac0, 0 0 50px #00fac0, 0 0 50px #00fac0, 0 0 50px #00fac0, 0 0 50px #00fac0, 0 1 50px #00fac0;
+ }
+}
+
+.carousel {
+  margin-left: 3em;
+  border-radius: 1em;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.7);
+}
+
+.carousel:hover {
+  box-shadow: 10px 10px 30px rgba(115, 120, 128, 0.4);
+}
+
+.carousel img {
+  border-radius: 1em;
 }
 
 .carousel-item .description {
   position: absolute;
   padding: 3em 1.5em;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 1em;
   height: 100%;
   width: 100%;
   top: 0px;
   color: white;
-  visibility: hidden;
-  transition: all 1s;
+  opacity: 0;
+  /* visibility: hidden; */
+  transition: ease-in .8s;
 }
 
 .carousel-item:hover .description {
-  visibility: visible;
+  /* visibility: visible; */
+  opacity: 1;
 }
 
 .descLink {
