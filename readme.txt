@@ -1,27 +1,24 @@
 Recent
   Carousel
-     -entire div needs to be centered
-     -images should be larger
-     -slide speed reduced
-     -arrows must be centered
+     -entire div should move to the left a bit
      -descriptions need to be centered on top
-     -new class for description links
-     -"hover for description" below images
+     -transition for description as well
+     -text shadow and hover effect : blue
      -add projects: https://github.com/kwall925?tab=repositories
       -ui library
       -fullstack challenges
 
+  feskills
+    -find cool sans serif font
 
   Main
     -Cube size must be larger
     -Writings: under maintenance
 
-
   Skills
     -Responsive (fix javascript to fit # of skills)
     -new background image
     -links to examples of work
-
 
 General
   -first and foremost is speed (homepage)
@@ -33,9 +30,7 @@ General
   -sell yourself. The point of this
     site is to get a job, not to make it pretty
 
+Fonts.css
+  -make one API call and remove all others
+
 https://determined-lewin-661375.netlify.app
-
-
-
-
-
