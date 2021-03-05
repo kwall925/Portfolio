@@ -1,12 +1,7 @@
-Recent
-  Carousel
-      -reduce radius of text shadow
-      -fix slide time
-      -fullstack challenges
-
   Main
     -Cube size must be larger
     -Writings: under maintenance
+    -Replace video with lower quality
 
   Skills
     -Responsive (fix javascript to fit # of skills)
