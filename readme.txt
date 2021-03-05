@@ -1,7 +1,7 @@
   Main
     -Cube size must be larger
     -Writings: under maintenance
-    -Replace video with lower quality
+    -Replace video with lower quality(pixabay)
 
   Skills
     -Responsive (fix javascript to fit # of skills)
