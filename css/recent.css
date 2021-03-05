@@ -43,37 +43,68 @@ a:hover {
   border-bottom: 4px solid #00fac0;
 }
 
-@media screen and (min-device-width: 400px) and (max-device-width: 960px) {
+/* small screens */
+@media screen and (min-device-width: 320px) and (max-device-width: 960px) {
+  body {
+    max-height: 95vh;
+    background: #32323e;
+  }
+
   .flex {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .uno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    height: 95vh;
+  }
+
+  .dois {
+    visibility: hidden;
+  }
+
+  .carousel-head{
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .carousel {
+    margin-right: 3em;
+  }
+}/*end media query */
+
+/*large screens */
+@media screen and (min-device-width: 961px) {
+  .flex {
+    display: flex;
+    /* align-content: center; */
     flex-direction: row;
+    flex-wrap: wrap;
+    background: #32323e;
+    width: 100%;
+    height: 93vh;
   }
 
   .flexchild {
-    flex-direction: row;
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    flex-direction: column;
   }
 
-  .feskills {
+  .carousel-head{
+    display: none;
   }
-}
-
-.flex {
-  display: flex;
-  /* align-content: center; */
-  flex-direction: row;
-  flex-wrap: wrap;
-  background: #32323e;
-  width: 100%;
-  height: 93vh;
-}
-
-.flexchild {
-  display: flex;
-  flex-basis: 100%;
-  align-items: center;
-  justify-content: center;
-  flex: 1;
-  flex-direction: column;
-}
+}/*end media query */
 
 .feskills {
   color: white;
