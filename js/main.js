@@ -80,7 +80,7 @@ var prefix = (function () {
   var styles = window.getComputedStyle(document.documentElement, ''),
     pre = (Array.prototype.slice
       .call(styles)
-      .join('') 
+      .join('')
       .match(/-(moz|webkit|ms)-/) || (styles.OLink === '' && ['', 'o'])
     )[1],
     dom = ('WebKit|Moz|MS|O').match(new RegExp('(' + pre + ')', 'i'))[1];
@@ -140,7 +140,7 @@ function Viewport(data) {
   bindEvent(document, 'mouseup', function() {
     self.down = false;
   });
-  
+
   bindEvent(document, 'keyup', function() {
     self.down = false;
   });
@@ -161,7 +161,7 @@ function Viewport(data) {
   });
 
   bindEvent(document, 'touchmove', function(e) {
-    if(e.preventDefault) { 
+    if(e.preventDefault) {
       e.preventDefault();
     }
 
@@ -177,7 +177,7 @@ function Viewport(data) {
 
   bindEvent(document, 'touchend', function(e) {
     self.down = false;
-  });  
+  });
 
   setInterval(this.animate.bind(this), this.fps);
 
@@ -333,7 +333,7 @@ Cube.prototype.upsideDown = function(obj) {
 Cube.prototype.sideChange = function() {
 
   for(var i = 0; i < this.sides.length; ++i) {
-    this.sides[i].getElementsByClassName('cube-image')[0].className = 'cube-image';    
+    this.sides[i].getElementsByClassName('cube-image')[0].className = 'cube-image';
   }
 
   this.sides[this.viewport.currentSide - 1].getElementsByClassName('cube-image')[0].className = 'cube-image active';
@@ -344,57 +344,6 @@ new Cube({
   viewport: viewport,
   element: document.getElementsByClassName('cube')[0]
 });
-}
-
-
-/**/ 
-
-const transform = () => {
-    let bod = document.querySelector('body');
-    bod.style.backgroundColor = '#cccccc';
-    let para = document.querySelectorAll('.newText'), i;
-    for (i = 0; i < para.length; ++i) {
-     para[i].style.color = "black";
-    }   
-    let heading = document.querySelectorAll('h4'), j;
-    for (j = 0; j < heading.length; ++j) {
-     heading[j].style.color = "black";
-    }   
-    let subheading = document.querySelectorAll('h6'), k;
-    for (k = 0; k < subheading.length; ++k) {
-     subheading[k].style.color = "black";
-    }  
-    let smallpara = document.querySelectorAll('.subtext'), l;
-    for (l = 0; l < smallpara.length; ++l) {
-     smallpara[l].style.color = "black";
-    } 
-    let btn = document.querySelector('.toggle-track');
-    btn.onclick = revert;
-    btn.classList.add("toggled");
-}
-
-const revert = () => {
-    let bod = document.querySelector('body');
-    bod.style.backgroundColor = '#484d49';
-    let para = document.querySelectorAll('.newText'), i;
-    for (i = 0; i < para.length; ++i) {
-     para[i].style.color = "#579dff";
-    }   
-    let heading = document.querySelectorAll('h4'), j;
-    for (j = 0; j < heading.length; ++j) {
-     heading[j].style.color = "#e6eefc";
-    }   
-    let subheading = document.querySelectorAll('h6'), k;
-    for (k = 0; k < subheading.length; ++k) {
-     subheading[k].style.color = "#e6eefc";
-    }
-    let smallpara = document.querySelectorAll('.subtext'), l;
-    for (l = 0; l < smallpara.length; ++l) {
-     smallpara[l].style.color = "#579dff";
-    }   
-    let btn = document.querySelector('.toggle-track');
-    btn.onclick = transform;
-    btn.classList.remove("toggled");
 }
 
 
@@ -419,4 +368,3 @@ const hidePara = () => {
 
 window.onload = init;
 */
-

@@ -1,6 +1,6 @@
     const playVid = () => {
     var vid = document.getElementById("bgvid");
-    vid.playbackRate = 0.3;
+    vid.playbackRate = 0.45;
   }
 
   const nav = () => {

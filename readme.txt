@@ -1,7 +1,5 @@
   Main
     -Cube size must be larger
-    -Writings: under maintenance
-    -Replace video with lower quality(pixabay)
 
   Skills
     -Responsive (fix javascript to fit # of skills)
@@ -19,6 +17,14 @@ General
   -find cool sans serif font for billboard text
   -sell yourself. The point of this
     site is to get a job, not to make it pretty
+
+Writings
+  under maintenance
+
+
+Resources:
+  Background video:
+    https://pixabay.com/videos/blue-stain-ink-mask-abstract-22908/
 
 Fonts.css
   -make one API call and remove all others
