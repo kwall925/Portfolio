@@ -1,6 +1,16 @@
   Main
     -Cube size must be larger
 
+  Nav
+    -font styling same as skills page
+    copy/paste CSS to other pages after
+    thorough testing
+    (italic at 300)
+    -responsive nav needs to be created;
+      follow instructions from module on UI
+      bootcamp
+    -skills/services: how to phrase better?
+
   Skills
     -Responsive (fix javascript to fit # of skills)
     -new background image
