@@ -12,8 +12,6 @@ var radius, theta;
 // console.log( cellWidth, cellHeight );
 cells.forEach(element => element.mouseover = function(){console.log('hello world')});
 
-
-
 function rotateCarousel() {
   var angle = theta * selectedIndex * -1;
   carousel.style.transform = 'translateZ(' + -radius + 'px) ' +
@@ -35,8 +33,6 @@ nextButton.addEventListener( 'click', function() {
 var cellsRange = document.querySelector('.cells-range');
 cellsRange.addEventListener( 'change', changeCarousel );
 cellsRange.addEventListener( 'input', changeCarousel );
-
-
 
 function changeCarousel() {
   cellCount = cellsRange.value;

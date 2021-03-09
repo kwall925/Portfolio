@@ -35,6 +35,11 @@ Writings
 Resources:
   Background video:
     https://pixabay.com/videos/blue-stain-ink-mask-abstract-22908/
+  Main Cube:
+    -
+  Skills Carousel:
+    -
+  Images:
 
 Fonts.css
   -make one API call and remove all others
