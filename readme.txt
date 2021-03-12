@@ -27,6 +27,8 @@ General
   -find cool sans serif font for billboard text
   -sell yourself. The point of this
     site is to get a job, not to make it pretty
+  -post on design forums when finished.
+    receive some "performance feedback"
 
 Writings
   under maintenance
