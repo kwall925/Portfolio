@@ -21,6 +21,10 @@ body{
   display: none;
 }
 
+.miniNav {
+  display: none;
+}
+
 /* HIDE THE iPHONE PLAY BUTTON */
 *::-webkit-media-controls-start-playback-button {
   display: none!important;
@@ -326,7 +330,7 @@ a {
       }
 
       .burger > img {
-        height: 56px;
+        height: 80px;
       }
 
       .cube {
@@ -334,10 +338,22 @@ a {
       }
 
       .homeImg {
-          display: block;
-        }
+        display: block;
+      }
 
-      .classicNav {
+      .miniNav {
+        display: none;
+      }
+
+        .classicNav {
+          display: none;
+          position: fixed;
+          top: 0;
+          left: 0;
+          height: 100vh;
+          background: white;
+        }
+      /* .classicNav {
         top: 0;
         bottom: 0;
         right: 0;
@@ -360,7 +376,7 @@ a {
 
       .classicNav > li > a:hover {
         color: #00fac0;
-      }
+      } */
 
       .instruct {
         /* font-size: 1.7em; */
