@@ -29,14 +29,9 @@ function delayedAlert() {
   timeoutID = window.setTimeout(window.alert, 4*1000, 'This site is under maintenance. The full, functional experience will be delivered April 1.');
 }
 
-function fixiphone() {
-  document.getElementById("herePutVideoId").controls = false;
-}
-
 window.addEventListener('load', function () {
   delayedAlert();
   playVid();
   nav();
   closeNav();
-  fixiphone()
 });
