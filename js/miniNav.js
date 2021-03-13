@@ -5,7 +5,7 @@ const miniNav = () => {
 
 const miniNavAppear = () => {
   let showMe = document.querySelector(".miniNav");
-  showMe.style.cssText = 'display: flex; flex-direction: column; position: fixed; top: 0; left: 0; background: white; height: 100%; width: 60vw; z-index: 10; ';
+  showMe.style.cssText = 'display: flex; flex-direction: column; justify-content: center; align-items: flex-start; font-size: 5em;  list-style-type: none; position: fixed; top: 0; left: 0; background: white; height: 100%; width: 60vw; z-index: 10; ';
   showMe.style.transition = "2s";
   }
 

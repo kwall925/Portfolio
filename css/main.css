@@ -345,6 +345,11 @@ a {
         display: none;
       }
 
+      .miniNav > li > a {
+        padding-left: 0.7em;
+        color: #579dff;
+      }
+
         .classicNav {
           display: none;
           position: fixed;
