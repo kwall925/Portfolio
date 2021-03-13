@@ -9,13 +9,15 @@
 </head>
 <body>
             <section id="wrapper">
-              <a href='index.html' class='bannerimg' data-aos="fade-in" data-aos-time="4000">
-                <img src='' class='bannerimg' style='height:13vh;'>
-                </a>
-              <div class="viewport" data-aos="fade-in">
+
+              <div class="viewport">
+                <div class='homeImg'>
+                  <img src="images/wdev.svg" alt="ken wall web developer">
+                  <p class="homeText">KEN WALL<br>WEB DEVELOPER<hr></p>
+                </div>
                 <div class="cube">
                   <div class="side">
-                    <div class="cube-image"><img src='images/kwall.png' style="height: 22vh;"></div>
+                    <div class="cube-image"><img src='images/kwall.png' style="height: 22vh"></div>
                   </div>
                   <div class="side">
                     <div class="cube-image"><a href='contact.html'><img src='images/smartphone.png' class='cubeImg' style="padding-right: 1.4rem;"><p class='subtext padd'>Contact Me</p></a></div>
@@ -34,6 +36,7 @@
                   </div>
                 </div>
               </div>
+
               <div class="instruct">
                 Drag cube to navigate.<br>
                 OR <a href="#" id='showNav'>use classic navigation</a>
@@ -54,14 +57,6 @@
           <video playsinline autoplay muted loop poster="images/video.mp4" id="bgvid">
             <source src="images/video.mp4" type="video/mp4">
           </video>
-
-          <script type="text/javascript">
-            $(document).ready(function(){
-               setTimeout(function(){
-                  PopUp();
-               },3000); // 5000 to load it after 5 seconds from page load
-              });
-          </script>
 
 </body>
 </html>
