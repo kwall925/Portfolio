@@ -26,17 +26,17 @@ body{
 }
 
 /* HIDE THE iPHONE PLAY BUTTON */
-*::-webkit-media-controls-start-playback-button {
+video::-webkit-media-controls-start-playback-button {
   display: none!important;
   -webkit-appearance: none;
 }
 
-*::-webkit-media-controls-play-button {
+video::-webkit-media-controls-play-button {
   display: none!important;
   -webkit-appearance: none;
 }
 
-*::-webkit-media-controls-panel {
+video::-webkit-media-controls-panel {
   display: none!important;
   -webkit-appearance: none;
 }
