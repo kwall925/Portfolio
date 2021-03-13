@@ -1,4 +1,4 @@
-    const playVid = () => {
+  const playVid = () => {
     var vid = document.getElementById("bgvid");
     vid.playbackRate = 0.45;
   }

@@ -1,5 +1,7 @@
   Main
     -Cube size must be larger
+    -disable iPhone autoplay:
+      https://stackoverflow.com/questions/8911247/hide-iphone-html5-video-play-button
 
   Nav
     -font styling same as skills page

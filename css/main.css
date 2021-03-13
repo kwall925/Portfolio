@@ -17,6 +17,10 @@ body{
   display: none;
 }
 
+.burger {
+  display: none;
+}
+
 /* HIDE THE iPHONE PLAY BUTTON */
 *::-webkit-media-controls-start-playback-button {
   display: none!important;
@@ -313,6 +317,18 @@ a {
 
     @media screen and (min-device-width: 200px) and (max-device-width: 550px) {
 
+      .burger {
+        display: block;
+        position: fixed;
+        cursor: pointer;
+        top: 30px;
+        left: 30px;
+      }
+
+      .burger > img {
+        height: 56px;
+      }
+
       .cube {
         display: none;
       }
@@ -329,17 +345,17 @@ a {
         height: 100vh;
         width: 100vw;
         font-weight: 300;
-        display: flex;
+        display: none;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        background: rgba(255, 255, 255, 0.6);
+        background: rgba(255, 255, 255, 0.9);
       }
 
       .classicNav > li > a {
         color: #579dff;
         font-size: 2em;
-        padding: 0 0 .5em .9em;
+        padding: 0 0 1.9em 0.9em;
       }
 
       .classicNav > li > a:hover {
@@ -347,6 +363,7 @@ a {
       }
 
       .instruct {
-        font-size: 1.7em;
+        /* font-size: 1.7em; */
+        display: none;
       }
     }/* end media query*/
