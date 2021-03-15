@@ -65,6 +65,10 @@ a:hover {
 
 /* https://coder-coder.com/background-image-opacity/ */
 
+.contact {
+  display: none;
+}
+
 .watermark {
   /* background-position: center; */
   /* background-position: 50% 50%; */
@@ -96,19 +100,6 @@ a:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* form styles */
 
 .main-form {
@@ -137,6 +128,7 @@ a:hover {
   font-weight: bold;
   font-size: 1.2em;
   position: relative;
+  margin: 0.5em 0;
   text-align: left;
   background: none;
   text-shadow: 2px 2px black /*rgb(107, 184, 255)*/;
@@ -146,8 +138,11 @@ a:hover {
   background: white;
   border-radius: 3px;
   height: 2.8em;
-  margin: 1vh 0;
   color:rgb(171, 173, 175);
+}
+
+.main-form > textarea {
+  background: white;
 }
 
 .main-btn {
@@ -160,7 +155,7 @@ a:hover {
   text-decoration: none;
   width: auto;
   height: 38px;
-  max-width: 5rem;
+  /* max-width: 5rem; */
   outline: none;
   font-weight: 800;
   margin-top: 1.5em;
@@ -185,4 +180,64 @@ a:hover {
   box-shadow: 0px 0px 0px #388bff;
   position:relative;
   top:4px;
+}
+
+@media screen and (min-device-width: 200px) and (max-device-width: 550px) {
+
+  .flex {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .main-form {
+    width: 75vw;
+    height: 70vh;
+  }
+
+  .main-form > input {
+    height: 5em;
+    border: 2px solid #579dff;
+  }
+
+  .main-form > label {
+    font-size: 2.5em;
+  }
+
+  .main-form > textarea {
+    height: 30vh;
+    border: 2px solid #579dff;
+  }
+
+  .feskills {
+    display: none;
+  }
+
+  .main-btn {
+    width: 12em;
+    height: 5em;
+  }
+
+  .contact {
+    display: block;
+    color: white;
+    padding: 1em 0 1em 0;
+    font-size: 5em;
+  }
+
+  .burger {
+    display: block;
+    position: fixed;
+    cursor: pointer;
+    top: 30px;
+    left: 30px;
+  }
+
+  .burger > img {
+    height: 80px;
+  }
+
 }
