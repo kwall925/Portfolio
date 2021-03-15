@@ -35,8 +35,7 @@ General
     receive some "performance feedback"
 
 Writings
-  under maintenance
-
+  -under maintenance
 
 Resources:
   Background video:

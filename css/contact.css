@@ -49,6 +49,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background: transparent;
   flex-basis: 100%;
   flex: 1;
