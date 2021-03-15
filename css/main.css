@@ -354,6 +354,10 @@ a {
         color: #579dff;
       }
 
+      .miniNav > li > a:hover {
+        border-bottom: #00fac0;
+      }
+
       .close {
         cursor: pointer;
         position: absolute;
