@@ -3,8 +3,24 @@
 <head>
 	<title>Ken Wall | Contact</title>
 	<link rel="stylesheet" href="css/contact.css">
+	<script src="js/miniNav.js" async defer></script>
 </head>
 <body>
+
+	<div class="burger">
+		<img src="images/burger.svg" alt="click here for navigation">
+	</div>
+
+	<div class="miniNav">
+		<div class="close">
+			<img src="images/delete.svg">
+		</div>
+		<li><a href='skills.html'>Skills</a></li>
+		<li><a href='contact.html'>Contact</a></li>
+		<li><a href='resources.html'>Resources</a></li>
+		<li><a href='recent.html'>Recent Work</a></li>
+	</div>
+
 	<nav>
 		<a href="index.html">Home</a>
 		<a href="skills.html">Skills/Services</a>
@@ -14,7 +30,7 @@
 	<section class="flex">
 			<h1 class="contact">Contact Me</h1>
 			<div class="flexchild">
-				<form class='main-form'name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+				<form class='main-form' name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
 			      <label for="Name" placeholder='name'>Name</label>
 			      <input type="text">
 			      <label for="email">Email</label>
