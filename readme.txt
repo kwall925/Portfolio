@@ -9,11 +9,6 @@
     -links to examples of work
 
 General
-  -first and foremost is speed (homepage)
-  Js:
-  Your shit is a mess main
-    -How to properly structure JS?
-  -Meta Descriptions
   -sell yourself. The point of this
     site is to get a job, not to make it pretty
   -post on design forums when finished.
@@ -27,8 +22,11 @@ Resources:
   Skills Carousel:
     -
   Images:
+    -flaticon
 
-Fonts.css
-  -make one API call and remove all others
-
-https://determined-lewin-661375.netlify.app
+  Bio
+  Education
+  skills
+  Interests
+  rgba 0.9 - border-raidus
+  italicized blue headers
