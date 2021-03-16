@@ -150,7 +150,7 @@ a:hover {
 .main-form > input {
   background: white;
   border-radius: 3px;
-  height: 2.8em;
+  min-height: 2.8em;
   color:rgb(171, 173, 175);
 }
 
