@@ -1,5 +1,13 @@
 Front End Developer
 
+Bio -sell yourself.
+Education
+skills
+Interests
+rgba 0.9 - border-raidus
+italicized blue headers
+
+
 My passion as a developer lies in
 creating content that is functional
 and visually appealing without being
