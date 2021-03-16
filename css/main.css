@@ -49,6 +49,10 @@ body{
   -webkit-appearance: none;
 }
 
+.custom-video-controls {
+  z-index: 2147483647;
+}
+
 #wrapper {
     padding-top: 10%;
     width: 100%;

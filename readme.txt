@@ -1,18 +1,9 @@
-  Main
-    -disable iPhone autoplay:
-      https://stackoverflow.com/questions/8911247/hide-iphone-html5-video-play-button
-      https://stackoverflow.com/questions/17994666/video-auto-play-is-not-working-in-safari-and-chrome-desktop-browser
+  Performance feedback
 
   Skills
     -Responsive (fix javascript to fit # of skills)
     -new background image
     -links to examples of work
-
-General
-  -sell yourself. The point of this
-    site is to get a job, not to make it pretty
-  -post on design forums when finished.
-    receive some "performance feedback"
 
 Resources:
   Background video:
@@ -24,7 +15,7 @@ Resources:
   Images:
     -flaticon
 
-  Bio
+  Bio -sell yourself.
   Education
   skills
   Interests
