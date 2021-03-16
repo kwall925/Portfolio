@@ -222,14 +222,6 @@ a:hover {
     height: 80px;
   }
 
-  .cube {
-    display: none;
-  }
-
-  .homeImg {
-    display: block;
-  }
-
   .miniNav {
     display: none;
     background: white;
