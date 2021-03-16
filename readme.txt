@@ -3,13 +3,6 @@
       https://stackoverflow.com/questions/8911247/hide-iphone-html5-video-play-button
       https://stackoverflow.com/questions/17994666/video-auto-play-is-not-working-in-safari-and-chrome-desktop-browser
 
-  Nav
-    -font styling same as skills page
-    copy/paste CSS to other pages after
-    thorough testing
-    (italic at 300)
-    -skills/services: how to phrase better?
-
   Skills
     -Responsive (fix javascript to fit # of skills)
     -new background image
@@ -20,20 +13,11 @@ General
   Js:
   Your shit is a mess main
     -How to properly structure JS?
-  -UI consistency
   -Meta Descriptions
-  -remove all scrollbars
-  -find cool sans serif font for billboard text
   -sell yourself. The point of this
     site is to get a job, not to make it pretty
   -post on design forums when finished.
     receive some "performance feedback"
-
-Recent
-  -font size on subtext :smaller on large screens
-
-Writings
-  -under maintenance
 
 Resources:
   Background video:
