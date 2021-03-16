@@ -17,6 +17,14 @@ display: none;
 background: #00fac0;
 }
 
+.burger {
+  display: none;
+}
+
+.miniNav {
+  display: none;
+}
+
 nav {
   width: 100%;
   background: black;

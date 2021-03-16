@@ -1,6 +1,4 @@
   Main
-    -Cube size must be larger
-    -fix padding/margin on recent work
     -disable iPhone autoplay:
       https://stackoverflow.com/questions/8911247/hide-iphone-html5-video-play-button
       https://stackoverflow.com/questions/17994666/video-auto-play-is-not-working-in-safari-and-chrome-desktop-browser
@@ -10,9 +8,6 @@
     copy/paste CSS to other pages after
     thorough testing
     (italic at 300)
-    -responsive nav needs to be created;
-      follow instructions from module on UI
-      bootcamp
     -skills/services: how to phrase better?
 
   Skills
@@ -34,6 +29,9 @@ General
   -post on design forums when finished.
     receive some "performance feedback"
 
+Recent
+  -font size on subtext :smaller on large screens
+
 Writings
   -under maintenance
 
@@ -41,7 +39,7 @@ Resources:
   Background video:
     https://pixabay.com/videos/blue-stain-ink-mask-abstract-22908/
   Main Cube:
-    -
+    -https://codepen.io/jordizle/pen/haIdo
   Skills Carousel:
     -
   Images:
