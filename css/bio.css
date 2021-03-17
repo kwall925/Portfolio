@@ -7,7 +7,11 @@
   padding: 0;
 }
 
-body { background: #32323e; border: 1px solid blue; min-height: 100vh; }
+body {
+  background: #32323e;
+  border: 1px solid blue;
+  min-height: 100vh;
+}
 
 ::-webkit-scrollbar {
 display: none;
@@ -54,16 +58,133 @@ a:hover {
   border-bottom: 4px solid #00fac0;
 }
 
+h2 { text-align: center; }
+
+h2, h3 {
+  font-style: italic;
+  color: #579dff;
+}
+
+p { padding: 5px 0 9px 0; }
 
 /* stlyes for main content, container and bio */
 
-.container {
-  border: 1px solid red;
+.bio-container {
   display: flex;
+  padding: 7em 14em;
+  align-items: center;
+  justify-content: center;
   height: inherit;
   width: 100%;
 }
 
 .bio {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 1.5em;
+  padding: 4em 3em;
+  min-height: 80vh;
+  min-width: 60vw;
+}
+
+/* buttons */
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  padding: 1em 0;
+}
+
+button > a {
+  color: black;
+}
+
+button > a:hover {
+  color: black;
+  font-size: inherit;
+}
+
+.btn-red {
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+ /* background-color: rgb(255, 54, 64);8?
+  /*border: 1px solid #006aff;*/
+ /* border: 3px solid rgb(255, 36, 167);*/
+  border: 3px solid rgb(245, 66, 242);
+  background: rgb(252, 81, 90);
+  border-radius: 1rem;
+  color: rgb(61, 61, 61);
+  text-decoration: none;
+  height: 38px;
+  width: auto;
+  max-width: 5rem;
+  outline: none;
+  font-weight: 600;
+  margin-left: 1em;
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+
+  -webkit-box-shadow: -1px 2px 0px rgb(102, 111, 120);
+  -moz-box-shadow: -1px 2px 0px rgb(102, 111, 120);
+  box-shadow: -1px 2px 0px rgb(102, 111, 120);
+}
+
+.btn-red:hover {
+  background: rgb(255, 140, 146);
+  color: black;
+  transition: all 1s;
+}
+
+.btn-red:active {
+  /*
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  */
+  -webkit-box-shadow: 0px 0px 0px rgb(248, 41, 255);
+  -moz-box-shadow: 0px 0px 0px rgb(248, 41, 255);
+  box-shadow: 0px 0px 0px rgb(248, 41, 255);
+  position:relative;
+  top:4px;
+}
+
+.main-btn {
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  background-color: rgb(107, 184, 255);
+  border: 3px solid #33ffff;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em 0.7em;
+  color: black;
+  text-decoration: none;
+  height: auto;
+  max-height: 38px;
+  width: auto;
+  outline: none;
+  font-weight: 600;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-box-shadow: -1px 2px 0px rgb(102, 111, 120);
+  -moz-box-shadow: -1px 2px 0px rgb(102, 111, 120);
+  box-shadow: -1px 2px 0px rgb(102, 111, 120);
+}
+
+.main-btn:hover {
+  /* background: rgb(133, 196, 255); */
+  background: rgb(150, 204, 255);
+  color: black;
+  transition: all 3s;
+}
+
+.main-btn:active {
+  /*
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  */
+  -webkit-box-shadow: 0px 0px 0px #388bff;
+  -moz-box-shadow: 0px 0px 0px #388bff;
+  box-shadow: 0px 0px 0px #388bff;
+  position:relative;
+  top:4px;
 }

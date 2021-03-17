@@ -1,23 +1,27 @@
-Front End Developer
-
-Bio -sell yourself.
-Education
-skills
-Interests
-rgba 0.9 - border-raidus
-italicized blue headers
 
 
-My passion as a developer lies in
-creating content that is functional
-and visually appealing without being
-overly complicated.
 
-Capabilities
-With a firm rooting in HTML, CSS and
-JavaScript, front end is my bread and butter.
-Going beyond front end, I also have a firm rooting
-in back-end development learned by creating full-stack
-apps with Rails.
+
+
 
 Aspirations
+To become a great front end developer but also have the capabilities to be fully
+autonomous as both a back end developer and web designer
+
+Background
+Having a life-long interest in both history and politics,
+theses are the topics I studied at university. I worked on
+political campaigns, and in both government and law. Additionally,
+my passion for food and cooking have led me to employment as a cook
+at various periods throughout my life, mostly as a way to earn an
+income while studying another field.
+
+Current Focus
+Mastering Vue and becoming a
+"passable"-reword designer
+
+Other than Dev
+-Love travel and culture. Regularly read, journal, socialize and
+exercise, cook and see new places.
+
+link to github

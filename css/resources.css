@@ -31,8 +31,12 @@ nav {
   padding: 1.2em 0;
 }
 
+li {
+list-style-type: none;
+}
+
 a {
-  color: white;
+  color: #00fac0;
   text-decoration: none;
   background: inherit;
 }
