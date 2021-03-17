@@ -154,11 +154,14 @@ a:hover {
   background: white;
   border-radius: 3px;
   min-height: 2.8em;
-  color:rgb(171, 173, 175);
+  color: black;
+  font-weight: bold;
 }
 
 .main-form > textarea {
   background: white;
+  font-weight: bold;
+  color: black;
 }
 
 .main-btn {
