@@ -9,7 +9,6 @@
 
 body {
   background: #32323e;
-  border: 1px solid blue;
   min-height: 100vh;
 }
 
@@ -58,14 +57,6 @@ a:hover {
   border-bottom: 4px solid #00fac0;
 }
 
-h2 { text-align: center; }
-
-h2, h3 {
-  font-style: italic;
-  color: #579dff;
-}
-
-p { padding: 5px 0 9px 0; }
 
 /* stlyes for main content, container and bio */
 
@@ -81,10 +72,32 @@ p { padding: 5px 0 9px 0; }
 .bio {
   background: rgba(255, 255, 255, 0.85);
   border-radius: 1.5em;
-  padding: 4em 3em;
+  padding: 4em 6em;
   min-height: 80vh;
-  min-width: 60vw;
+  min-width: 50vw;
 }
+
+.headline {
+  text-align: center;
+}
+
+.headline > img {
+  border-radius: 50%;
+  height: 12em;
+}
+
+h2 { text-align: center; }
+
+h2, h3 {
+  font-style: italic;
+  color: #579dff;
+}
+
+p {
+  padding: 5px 0 14px 0;
+  font-size: 1.1em;
+ }
+
 
 /* buttons */
 
@@ -105,12 +118,10 @@ button > a:hover {
 
 .btn-red {
   font-family: 'IBM Plex Sans Condensed', sans-serif;
- /* background-color: rgb(255, 54, 64);8?
-  /*border: 1px solid #006aff;*/
- /* border: 3px solid rgb(255, 36, 167);*/
   border: 3px solid rgb(245, 66, 242);
   background: rgb(252, 81, 90);
   border-radius: 1rem;
+  padding: .5em 1em;
   color: rgb(61, 61, 61);
   text-decoration: none;
   height: 38px;
@@ -154,7 +165,7 @@ button > a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.5em 0.7em;
+  padding: 1.3em 1em;
   color: black;
   text-decoration: none;
   height: auto;
@@ -188,3 +199,80 @@ button > a:hover {
   position:relative;
   top:4px;
 }
+
+/* small screens */
+@media screen and (min-device-width: 320px) and (max-device-width: 960px) {
+  body {
+    max-height: 95vh;
+    background: #32323e;
+  }
+
+  .bio-container{
+    padding: 7em 7em;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+    position: fixed;
+    cursor: pointer;
+    top: 30px;
+    left: 30px;
+  }
+
+  .burger > img {
+    height: 80px;
+  }
+
+  .miniNav {
+    display: none;
+    background: white;
+  }
+
+  .miniNav > li > a {
+    padding-left: 0.7em;
+    color: #579dff;
+  }
+
+  .miniNav > li > a:hover {
+    border-bottom: #00fac0;
+  }
+
+  .close {
+    cursor: pointer;
+    position: absolute;
+    opacity: 1;
+    top: 15px;
+    right: 15px;
+  }
+
+  .close > img {
+    height: 85px;
+  }
+
+  .main-btn, .btn-red {
+    width: 12em;
+    height: 5em;
+  }
+
+  .btn-red {
+    padding: 0;
+    max-width: 10rem;
+  }
+
+  .burger {
+    display: block;
+    position: fixed;
+    cursor: pointer;
+    top: 30px;
+    left: 30px;
+  }
+
+  .burger > img {
+    height: 80px;
+  }
+
+}/*end media query */
