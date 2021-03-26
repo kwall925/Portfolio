@@ -232,6 +232,19 @@ nav {
   display: none;
 }
 
+.flex {
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+
+.one {
+  display: none;
+}
+
 .feskills {
   display: none;
 }
@@ -245,8 +258,8 @@ nav {
   flex-direction: column;
 }
 
-.smallImage .smalldescription {
-  position: absolute;
+.smallImg .smalldescription {
+  /* position: absolute; */
   background: rgba(0, 0, 0, 0.7);
   padding: 0 1em;
   line-height: normal;
@@ -262,24 +275,16 @@ nav {
   transition: ease-in .8s;
 }
 
-.smallImage:hover .smalldescription {
+.smallImg:hover .smalldescription {
   opacity: 1;
 }
 
 .smallT {
   display: block;
   color: white;
+  width: 100%;
   padding: 3em 0;
   font-size: 5em;
-}
-
-.flex {
-  display: flex;
-  align-content: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 100%;
-  height: 100vh;
 }
 
 .burger {
