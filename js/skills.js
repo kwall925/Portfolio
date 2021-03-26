@@ -40,7 +40,6 @@ function changeCarousel() {
   var cellSize = isHorizontal ? cellWidth : cellHeight;
   radius = Math.round( ( cellSize / 2) / Math.tan( Math.PI / cellCount ) );
   for ( var i=0; i < cells.length; i++ ) {
-    var cell = cells[i];
     if ( i < cellCount ) {
       // visible cell
       cell.style.opacity = 1;
