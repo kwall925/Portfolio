@@ -70,7 +70,8 @@ a:hover {
 }
 
 .bio {
-  background: rgba(255, 255, 255, 0.85);
+  /* background: rgba(255, 255, 255, 0.85); */
+  background: black;
   border-radius: 1.5em;
   padding: 4em 6em;
   min-height: 80vh;
@@ -96,6 +97,7 @@ h2, h3 {
 p {
   padding: 5px 0 14px 0;
   font-size: 1.1em;
+  color: white;
  }
 
 

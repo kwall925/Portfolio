@@ -10,7 +10,6 @@ var isHorizontal = true;
 var rotateFn = isHorizontal ? 'rotateY' : 'rotateX';
 var radius, theta;
 // console.log( cellWidth, cellHeight );
-cells.forEach(element => element.mouseover = function(){console.log('hello world')});
 
 function rotateCarousel() {
   var angle = theta * selectedIndex * -1;
@@ -34,12 +33,15 @@ var cellsRange = document.querySelector('.cells-range');
 cellsRange.addEventListener( 'change', changeCarousel );
 cellsRange.addEventListener( 'input', changeCarousel );
 
+
+
 function changeCarousel() {
   cellCount = cellsRange.value;
   theta = 360 / cellCount;
   var cellSize = isHorizontal ? cellWidth : cellHeight;
   radius = Math.round( ( cellSize / 2) / Math.tan( Math.PI / cellCount ) );
   for ( var i=0; i < cells.length; i++ ) {
+    var cell = cells[i];
     if ( i < cellCount ) {
       // visible cell
       cell.style.opacity = 1;
