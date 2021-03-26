@@ -103,6 +103,10 @@ a:hover {
   margin-top: 150px;
 } */
 
+.smallDisplay {
+  display: none;
+}
+
 .scene {
   margin: 40px 0;
   position: relative;
@@ -219,6 +223,7 @@ a:hover {
     width: 50px;
 }
 .hide {
+  display: none;
 }
 
 /* small screens */
@@ -229,6 +234,36 @@ nav {
 
 .feskills {
   display: none;
+}
+
+.addMargin {
+  display: none;
+}
+
+.smallDisplay {
+  display: flex;
+  flex-direction: column;
+}
+
+.smallImage .smalldescription {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 0 1em;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 12px;
+  width: 100%;
+  top: 0px;
+  color: white;
+  opacity: 0;
+  transition: ease-in .8s;
+}
+
+.smallImage:hover .smalldescription {
+  opacity: 1;
 }
 
 .smallT {
