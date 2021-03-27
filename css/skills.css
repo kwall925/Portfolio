@@ -258,6 +258,11 @@ nav {
   flex-direction: column;
 }
 
+.smallImg {
+  margin: 1.5em 0;
+  padding: 1em;
+}
+
 .smallImg .smalldescription {
   /* position: absolute; */
   background: rgba(0, 0, 0, 0.7);
@@ -284,7 +289,9 @@ nav {
   color: white;
   width: 100%;
   padding: 3em 0;
-  font-size: 5em;
+  font-size: 8em;
+  text-decoration: underline;
+  text-decoration-color: #00fac0;
 }
 
 .burger {
