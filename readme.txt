@@ -1,5 +1,5 @@
-copy/paste slidshow into skills
+-Navs: both fullscreen and mobile:
+  need to be uniform
 
-no display carousel in MQ
-
-copy/paste images into new carousel
+-Contact: form needs to be fixed on
+  mobile
